@@ -120,14 +120,14 @@ set_customizations () {
 	echo "sendmail_path = /usr/local/bin/mhsendmail" >> /usr/local/etc/php/8.1/php.ini
 
 	#Download script
-	curl -s https://bitbucket.org/cognitionstudio/scripts/raw/HEAD/cog.sh > ~/.dev/cog.sh
-	chmod +x ~/.dev/cog.sh
+	curl -s https://raw.githubusercontent.com/kaitwalla/macdev/main/dev.sh > ~/.dev/dev.sh
+	chmod +x ~/.dev/dev.sh
 
 	# Add to path
 	fileLocation="/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 	codePath="export \"PATH=\$PATH:$fileLocation\""
 	echo "$codePath" >> ~/.zprofile
-	echo "alias cog=~/.dev/cog.sh" >> ~/.zprofile
+	echo "alias dev=~/.dev/dev.sh" >> ~/.zprofile
 	echo 'export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin:$PATH"' >> ~/.zprofile
 	ln -s "/Applications/Sublime Merge.app/Contents/SharedSupport/bin/smerge" /usr/local/bin/smerge
 }
