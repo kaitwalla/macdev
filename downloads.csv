@@ -1,0 +1,16 @@
+type,url,file,appname,mountpoint
+dmg,https://download.mozilla.org/?product=firefox-latest-ssl&os=osx&lang=en-US,firefox.dmg,Firefox.app,Firefox
+dmg,https://dl.google.com/chrome/mac/universal/stable/GGRO/googlechrome.dmg,googlechrome.dmg,Google Chrome.app,Google Chrome
+zip,https://code.visualstudio.com/sha/download?build=stable&os=darwin-universal,VSCode-darwin-universal.zip,Visual Studio Code.app
+zip,https://download.sublimetext.com/sublime_text_build_4126_mac.zip,sublime_text.zip,Sublime Text.app
+zip,https://panic.com/download/transmit/Transmit-5-Latest.zip,Transmit.zip,Transmit.app
+zip,https://download.sublimetext.com/sublime_merge_build_2068_mac.zip,sublime_merge.zip,Sublime Merge.app
+script,https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh,omz.sh
+dmg,https://tableplus.com/release/osx/tableplus_latest,TablePlus.dmg,TablePlus.app,TablePlus
+zip,https://freemacsoft.net/downloads/AppCleaner_3.6.zip,AppCleaner.zip,AppCleaner.app
+zip,https://iterm2.com/downloads/stable/latest,iterm.zip,iTerm.app
+dmg,https://remotix.com/downloads/latest-remotix-mac/,Remotix.dmg,Remotix.app,Remotix
+dmg,https://tunnelblick.net/release/Latest_Tunnelblick_Stable.dmg,Tunneblick.dmg,Tunnelblick.app,Tunnelblick
+manual,https://pantheon-localdev.s3.amazonaws.com/localdev-stable.dmg,localdev.dmg
+manual,https://updates.insomnia.rest/downloads/mac/latest?app=com.insomnia.app&source=website,insomnia.dmg
+manual,https://go.microsoft.com/fwlink/?LinkId=525133
